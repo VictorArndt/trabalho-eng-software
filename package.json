@@ -1,0 +1,20 @@
+{
+  "name": "trabalho-eng-software-joao-e-victor",
+  "version": "1.0.0",
+  "license": "ISC",
+  "scripts": {
+    "start": "ts-node src/index.ts",
+    "entrada": "ts-node src/escolherPerifericoEntrada.ts",
+    "saida": "ts-node src/escolherPerifericoSaida.ts",
+    "build": "tsc"
+  },
+  "dependencies": {
+    "prompt-sync": "^4.2.0"
+  },
+  "devDependencies": {
+    "@types/node": "^26.5.0",
+    "@types/prompt-sync": "^4.2.3",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.3"
+  }
+}
