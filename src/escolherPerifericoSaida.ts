@@ -8,6 +8,7 @@ const perifericosSaida: OpcaoMenu[] = [
     { chave: 2, rotulo: "Impressora" },
     { chave: 3, rotulo: "Caixa de Som" },
     { chave: 4, rotulo: "Fone de Ouvido" },
+    { chave: 5, rotulo: "Projetor" },
 ];
 
 export function escolherPerifericoSaida(): void {
