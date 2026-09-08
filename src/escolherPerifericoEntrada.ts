@@ -11,6 +11,7 @@ const perifericosEntrada: OpcaoMenu[] = [
     { chave: 2, rotulo: "Teclado" },
     { chave: 3, rotulo: "Webcam" },
     { chave: 4, rotulo: "Scanner" },
+    { chave: 5, rotulo: "Microfone" },
 ];
 
 export function escolherPerifericoEntrada(): void {
